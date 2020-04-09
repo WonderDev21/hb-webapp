@@ -1,0 +1,24 @@
+@import '../../../assets/sass/utils';
+
+.addpaymentmodal {
+  &__modal {
+    label {
+      color: $white;
+    }
+
+    input {
+      background-color: transparent;
+      &:focus {
+        background-color: transparent;
+        color: $white;
+      }
+      color: $white;
+    }
+  }
+
+  &__modalfooter {
+    .btn-danger {
+      box-shadow: none !important;
+    }
+  }
+}

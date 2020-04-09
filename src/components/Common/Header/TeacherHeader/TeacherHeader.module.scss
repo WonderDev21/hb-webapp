@@ -1,0 +1,98 @@
+@import '../../../../assets/sass/utils';
+
+.Profile {
+  float: right;
+  text-align: center;
+  background-color: $white;
+}
+
+.LogoIco {
+  margin-top: 10px;
+  width: 50px;
+}
+
+.ForSchools {
+  color: $white;
+  margin: 0;
+  padding-left: 8px;
+  font-family: "Barlow Semi Condensed";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.Index {
+  max-width: 80px;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: px-to-rem(136);
+}
+
+.Active {
+  background-color: $red;
+  .Link:hover {
+    text-decoration: none;
+  }
+
+  .UserName {
+    border-left: none;
+  }
+}
+
+.UserName {
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.UserDropdown {
+  width: px-to-rem(210);
+  box-shadow: 0 2px 4px rgba(47, 49, 59, 0.1);
+  background-color: #050111;
+  top: 80%
+}
+
+.Items {
+  color: $white;
+  padding: px-to-rem(13) px-to-rem(8);
+}
+
+.DropdownItemHover:hover, .DropdownItemHover:focus {
+  text-decoration: none;
+  background-color: #050111;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.DropdownDivider {
+  height: px-to-rem(1);
+  margin: px-to-rem(8) px-to-rem(10);
+  background-color: $white;
+  opacity: 0.6;
+}
+
+.goProContainer {
+  margin: 0 px-to-rem(32);
+}
+
+.goProButton {
+  border-radius: 19px;
+  background-color: #ff4438;
+  color: #ffffff;
+  padding: 8px 32px;
+  border: none;
+
+  font-family: "Barlow Semi Condensed";
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.goProButton:hover {
+  color: #ffffff;
+  text-decoration: none;
+}

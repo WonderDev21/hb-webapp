@@ -1,0 +1,64 @@
+@function px-to-rem($pxValue, $property: 'font-size', $standard-size: 16) {
+  @return ($pxValue / $standard-size) * 1rem;
+}
+
+@mixin button-gray {
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #53575a;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@mixin button-red {
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #ff4438;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@mixin button {
+  border-radius: 5px;
+  font-family: 'Barlow Semi Condensed';
+  font-size: 18px;
+  font-weight: 600;
+  padding: px-to-rem(8);
+  border: none;
+}
+
+@mixin shadow {
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+}
+
+@mixin redButton {
+  background-color: $red;
+  color: $white;
+}
+
+@mixin rainbowBorder {
+  border-right: 1px solid #3023ae;
+  border-top: 1px solid transparent;
+  border-left: 1px solid #c86dd7;
+  border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #c86dd7 0%, #3023ae 100%);
+  border-image-slice: 1;
+}
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  } @else if $media == medium-screens {
+    @media only screen and (min-width: 321px) and (max-width: 1024px) {
+      @content;
+    }
+  } @else if $media == wide-screens {
+    @media only screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+}

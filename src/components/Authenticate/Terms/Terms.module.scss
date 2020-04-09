@@ -1,0 +1,73 @@
+.Bg {
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center
+}
+
+.TextContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.TermsText {
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: #f2f2f2;
+  text-align: left;
+  border-radius: 5px;
+  max-height: 220px;
+  overflow-y: auto;
+  font-size: 18px;
+}
+
+.Title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.Close {
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  margin-top: 15px;
+  float: right
+}
+
+.Button {
+  width: 155px;
+  height: 53px;
+  margin-left: 20px;
+}
+
+.Label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Agree {
+  color: #ffffff;
+}
+
+@media (max-width:990px) {
+  .TextContainer {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .TermsText {
+    max-height: 180px;
+    font-size: 12px;
+    padding: 10px
+  }
+
+  .Title {
+    font-size: 18px;
+  }
+
+  .Button {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}

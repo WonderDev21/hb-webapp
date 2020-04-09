@@ -1,0 +1,43 @@
+.OutcomeContainer {
+  box-shadow: 0 2px 4px rgba(47, 49, 59, 0.1);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  height: 100%;
+}
+
+.ImageContainer {
+  width: 100%;
+}
+
+.OutcomeIcon {
+  width: 66px;
+  height: 66px;
+}
+
+.UploadButton {
+  padding: 10px 20px;
+}
+
+.ButtonTitle {
+  font-size: 12px;
+}
+
+.OutcomeTitle {
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .OutcomeContainer {
+    padding: 8px;
+  }
+
+  .OutcomeIcon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .UploadButton {
+    padding: 5px 7px;
+  }
+}

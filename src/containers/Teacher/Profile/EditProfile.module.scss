@@ -1,0 +1,12 @@
+@import '../../../assets/sass/utils';
+
+$margin: 140px;
+
+.section__profile {
+  border: 1px solid $blue-dark;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: $margin;
+  margin-right: $margin;
+  margin-top: 80px;
+}

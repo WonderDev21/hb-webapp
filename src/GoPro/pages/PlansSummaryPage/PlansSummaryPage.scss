@@ -1,0 +1,38 @@
+@import '../../../assets/sass/utils.scss';
+
+.PlansSummaryPage {
+  height: 25rem;
+  background-color: $blue-dark;
+  padding: 1rem 5rem;
+  @include respond-to(medium-screens) {
+    padding: 1rem 2rem;
+  }
+  &__backToBtn {
+    font-size: 1.6rem;
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+  .btnGray,
+  .btnOrange {
+    @include button;
+  }
+
+  .btnGray {
+    @include shadow;
+    background-color: $white;
+    color: $blue-dark;
+  }
+
+  .btnOrange {
+    @include redButton;
+    @include shadow;
+  }
+
+  .PlansSummaryPage__card {
+    @include respond-to(handhelds) {
+      margin-top: 1rem;
+    }
+  }
+}

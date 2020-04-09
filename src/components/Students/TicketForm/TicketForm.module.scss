@@ -1,0 +1,55 @@
+@import '../../../assets/sass/utils';
+
+.TicketContainer {
+  background-color: $soft_purple;
+}
+
+.ticket_form_container {
+  background-color: $soft_purple;
+
+  label,
+  p {
+    color: $white;
+    font-size: 13px;
+  }
+}
+
+input[type='radio'] {
+  visibility: visible;
+  position: relative;
+}
+
+.radio_text {
+  margin-left: 5px;
+  color: white;
+}
+
+.form_button {
+  width: unset;
+  margin: 0px 10px 0px 10px;
+  border-radius: 30px;
+}
+
+.upload_btn_wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.btn_custom {
+  border: 2px;
+  color: white;
+  background-color: $red;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.upload_btn_wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

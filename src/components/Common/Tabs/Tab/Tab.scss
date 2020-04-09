@@ -1,0 +1,17 @@
+.tab-list-item {
+  cursor: pointer;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.1rem 0.25rem;
+  margin: 2rem 3.5rem;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.tab-list-active{
+  color: #ffffff;
+  opacity: 1;
+  border-bottom: 2px solid
+}

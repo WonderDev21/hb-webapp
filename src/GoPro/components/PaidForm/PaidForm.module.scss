@@ -1,0 +1,31 @@
+@import '../../../assets/sass/utils.scss';
+
+.form {
+  width: 100%;
+  padding: px-to-rem(8);
+}
+
+.formLabel {
+  color: $white;
+  text-transform: uppercase;
+}
+
+.redButton {
+  @include button;
+  @include redButton;
+  @include shadow;
+  width: 100%;
+}
+
+.transparntButton {
+  @include button;
+  background-color: transparent;
+  color: $white;
+}
+
+.message {
+  color: $white;
+  font-family: "Barlow Semi Condensed";
+  font-size: px-to-rem(20);
+  font-weight: 400;
+}

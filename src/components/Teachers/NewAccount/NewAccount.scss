@@ -1,0 +1,27 @@
+@import '../../../assets/sass/utils';
+
+.mewaccount {
+  text-align: left;
+  h5 {
+    font-size: 18px;
+    color: $blue-dark;
+    font-weight: 600;
+  }
+
+  h4 {
+    color: $red;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  label {
+    font-size: 18px;
+    color: $blue-dark;
+    font-weight: 500;
+  }
+}

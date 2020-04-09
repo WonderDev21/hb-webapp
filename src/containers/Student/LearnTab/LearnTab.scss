@@ -1,0 +1,97 @@
+@import '../../../assets/sass/utils.scss';
+
+.learntab {
+  &__nav {
+    position: relative;
+    background-color: $nav-background;
+    padding: 0.6rem 0rem;
+    .nav-item {
+      padding: 0.2rem 2.5rem;
+      cursor: pointer;
+      font-family: 'Avenir Next LT Pro';
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba($blue-dark, 0.6);
+      border-right: 1px solid rgba($blue-dark, 0.1);
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .active {
+      color: $blue-dark;
+      font-weight: 700;
+    }
+
+    .nav-link {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+
+    &__levelProgress {
+      padding: 0.5rem 1rem;
+      // min-width: 400px;
+
+      background-color: $white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+
+      h6 {
+        color: $blue-dark;
+        font-weight: 600;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+
+      &__progress {
+        .__react_component_tooltip {
+          background-color: $blue-dark;
+          font-family: 'Avenir Next LT Pro';
+          &:after {
+            border-top-color: $blue-dark;
+          }
+        }
+        .place-top::after {
+          border-top-color: $blue-dark !important;
+        }
+      }
+    }
+  }
+  &__breadcrumbs {
+    a {
+      text-decoration: none;
+    }
+    h4 {
+      font-weight: bold;
+      color: $blue-dark;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    h6 {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 0;
+      color: $blue-dark;
+    }
+    img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  &__spinner {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+  }
+
+  &__tabContainer {
+    padding: 2rem 3rem;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

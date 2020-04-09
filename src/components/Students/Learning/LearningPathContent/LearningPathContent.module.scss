@@ -1,0 +1,62 @@
+@import '../../../../assets/sass/utils';
+
+.Container {
+  max-width: px-to-rem(900);
+}
+
+.Breadcrumb {
+  margin-top: px-to-rem(111);
+}
+
+.Title {
+  display: inline;
+  color: $blue-dark;
+  font-size: px-to-rem(28);
+  font-weight: 700;
+}
+
+.GoBack {
+  display: inline;
+  margin-right: px-to-rem(20);
+  padding-bottom: px-to-rem(10);
+}
+
+.SubTitle {
+  display: inline;
+  margin-left: px-to-rem(19);
+  color: $blue-dark;
+  font-size: px-to-rem(18);
+  font-weight: 500;
+}
+
+.Line {
+  margin-left: px-to-rem(18);
+  margin-top: px-to-rem(-7);
+}
+
+.GoBackButton {
+  @include button-gray;
+  width: px-to-rem(162);
+  height: px-to-rem(53);
+  margin-top: px-to-rem(39);
+}
+
+.StartModule {
+  @include button-red;
+  width: px-to-rem(154);
+  height: px-to-rem(53);
+  margin-left: px-to-rem(25);
+}
+
+.TitlePath {
+  color: $blue-dark;
+  margin-top: px-to-rem(75);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Description {
+  color: $blue-dark;
+  font-size: 16px;
+  font-weight: 200;
+}

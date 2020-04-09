@@ -1,0 +1,46 @@
+@import '../../../assets/sass/utils';
+
+.billing {
+  text-align: left;
+  h5 {
+    font-size: 18px;
+    color: $blue-dark;
+    font-weight: 700;
+  }
+
+  &__cardnumber {
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      color: $blue-dark;
+    }
+  }
+
+  li {
+    font-size: 16px;
+    color: $blue-dark;
+    font-weight: 400;
+    margin-top: 1rem;
+  }
+
+  &__box {
+    border: 1px solid $blue-dark;
+    border-radius: 5px;
+    &-left {
+      background-color: $blue-dark;
+      color: $white;
+      padding: 1.5rem;
+    }
+    &-right {
+      padding: 1.5rem;
+      h4 {
+        font-weight: 800;
+        color: $blue-dark;
+      }
+    }
+  }
+
+  img {
+    width: 60px;
+  }
+}

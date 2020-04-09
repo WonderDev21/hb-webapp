@@ -1,0 +1,115 @@
+@import '../../assets/sass/utils';
+
+.card__logo {
+  max-width: 190px;
+  height: 222px;
+  border-radius: 5px;
+  background-color: #261375 !important;
+  margin: 18px;
+
+  &:hover {
+    border-width: 3px;
+    border-style: solid;
+    border-color: $logo-light;
+    cursor: pointer;
+  }
+  a {
+    padding-bottom: 10px;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+    text-decoration: none;
+    h4 {
+      color: white !important;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+svg path {
+  fill: $logo-light;
+}
+
+.Here:hover {
+  border-bottom: 2px solid $white;
+  color: $white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.BgImg {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+  background-size: 100%;
+}
+
+.SignUpAs {
+  margin-top: 91px;
+}
+
+.HaveAccount {
+  color: $white !important;
+  font-weight: px-to-rem(500);
+  margin-top: px-to-rem(50);
+}
+
+.Here {
+  color: $white !important;
+  font-weight: 500;
+}
+
+.LandingTop {
+  padding-top: px-to-rem(50);
+}
+
+.Background {
+  background-color: $blue-dark;
+  min-height: 100%;
+}
+
+@media (max-width: 1220px) {
+  .BgImg {
+    display: none;
+  }
+  .section__landing .LandingTop {
+    padding-top: 50px;
+  }
+
+  .HaveAccount {
+    color: $blue-dark;
+  }
+
+  .Here {
+    color: $blue-dark;
+  }
+
+  .Here:hover {
+    border-bottom: 2px solid $blue-dark;
+    color: $blue-dark;
+  }
+}
+
+@media (min-width: 1570px) {
+  .BgImg {
+    display: none;
+  }
+
+  .HaveAccount {
+    color: $blue-dark;
+  }
+
+  .Here {
+    color: $blue-dark;
+  }
+
+  .Here:hover {
+    border-bottom: 2px solid $blue-dark;
+    color: $blue-dark;
+  }
+}

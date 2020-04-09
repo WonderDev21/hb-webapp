@@ -1,0 +1,123 @@
+@import '../../../assets/sass/utils.scss';
+.lecture {
+  &__videosection {
+    img {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    h4 {
+      color: $blue-dark;
+    }
+
+    &__playerContainer {
+      padding: 1rem;
+      background-color: $blue-dark-transparent;
+      border-radius: 4px;
+
+      h6 {
+        color: $blue-dark;
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__info {
+    h6 {
+      color: $blue-dark;
+      margin-bottom: 0;
+      margin-right: 0.5rem;
+    }
+
+    &__chapterInfo {
+      background-color: rgba($blue-dark, 0.05);
+      padding: 0.6rem;
+      text-align: center;
+      border-radius: 3px;
+    }
+  }
+  .stepper-container {
+    background-color: $blue-dark;
+  }
+  .stepper-container div div div div {
+    a {
+      font-family: 'Barlow Semi Condensed';
+      line-height: 0 !important;
+      font-weight: 600;
+    }
+    span {
+      font-family: 'Barlow Semi Condensed';
+      line-height: 0 !important;
+      font-weight: 600;
+    }
+  }
+
+  &__chapter {
+    padding: 5rem;
+    background-color: $blue-dark;
+
+    h5 {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 18px;
+      font-weight: 600;
+      color: $blue-dark;
+    }
+    .card .card-header {
+      background-color: $red;
+      h4 {
+        font-family: 'Barlow Semi Condensed';
+        font-size: 22px;
+        font-weight: 600;
+        color: $white;
+      }
+    }
+
+    &__item {
+      h5 {
+        font-family: 'Barlow Semi Condensed';
+        font-weight: 600;
+        color: $blue-dark;
+      }
+
+      h6 {
+        font-family: 'Barlow Semi Condensed';
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      &--index {
+        width: 35px;
+        height: 35px;
+        background-color: $blue-dark;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h6 {
+          margin-bottom: 0;
+          color: $white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &__test {
+    padding: 3rem;
+    img {
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &__content {
+      background-color: rgba($blue-dark, 0.05);
+      padding: 1rem;
+      h5 {
+        color: $blue-dark;
+        font-weight: bold;
+      }
+    }
+  }
+}

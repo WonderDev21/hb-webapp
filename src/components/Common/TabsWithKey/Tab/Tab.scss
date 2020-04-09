@@ -1,0 +1,22 @@
+@import '../../../../assets/sass/utils';
+
+.tab-list-item-key {
+  cursor: pointer;
+  list-style: none;
+  margin-bottom: -1px;
+  margin: 0.5rem 0.75rem;
+  opacity: 0.5;
+  color: $blue-dark;
+  font-size: 18px;
+}
+
+.tab-list-active-key {
+  opacity: 1;
+  border-bottom: 2px solid;
+}
+
+@media (max-width: 990px) {
+  .tab-list-item-key:last-child {
+    padding-left: 5%;
+  }
+}

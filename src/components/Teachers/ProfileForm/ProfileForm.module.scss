@@ -1,0 +1,55 @@
+@import '../../../assets/sass/utils';
+
+$margin: 50px;
+
+.EditProfile {
+  background-size: 100px;
+  background-color: white;
+}
+
+.UserEdit {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.profile__container {
+  display: flex;
+}
+
+.form__container {
+  padding: 10px;
+  flex-grow: 2;
+  padding-left: 50px;
+  padding-right: 50px;
+  input,
+  label {
+    display: block;
+    text-align: left;
+    color: $blue-dark;
+  }
+}
+
+.form__photo {
+  width: 206px;
+  height: 255px;
+  border: 1px solid $blue-dark;
+  border-style: dotted;
+  margin-top: 20px;
+}
+
+.form__row {
+  display: flex;
+}
+
+.form__group {
+  padding-right: 20px;
+}
+
+@media (min-width: 1025px) {
+  $margin: 150px;
+  section {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+}

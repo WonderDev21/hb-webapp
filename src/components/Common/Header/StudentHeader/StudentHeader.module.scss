@@ -1,0 +1,63 @@
+@import '../../../../assets/sass/utils';
+
+.Profile {
+  float: right;
+  text-align: center;
+  background-color: $white;
+}
+
+.LogoIco {
+  margin-top: px-to-rem(10);
+  width: px-to-rem(50);
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: px-to-rem(136);
+  width: px-to-rem(190);
+}
+
+.Active {
+  background-color: $red;
+  .Link:hover {
+    text-decoration: none;
+  }
+
+  .UserName {
+    border-left: none;
+  }
+}
+
+.UserName {
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.UserDropdown {
+  width: px-to-rem(210);
+  box-shadow: 0 2px 4px rgba(47, 49, 59, 0.1);
+  background-color: #050111;
+
+}
+
+.Items {
+  color: $white;
+  padding: px-to-rem(13) px-to-rem(8);
+}
+
+.DropdownItemHover:hover, .DropdownItemHover:focus {
+  text-decoration: none;
+  background-color: #050111;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.DropdownDivider {
+  height: px-to-rem(1);
+  margin: px-to-rem(8) px-to-rem(10);
+  background-color: $white;
+  opacity: 0.6;
+}

@@ -1,0 +1,64 @@
+@import '../../../assets/sass/utils.scss';
+@import '../../../assets/sass/checkbox.scss';
+
+.createTicket {
+  background-color: $blue-dark;
+  color: $white;
+  min-height: calc(100vh - 8.5rem);
+  h5 {
+    font-family: 'Barlow Semi Condensed';
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__block {
+    display: table;
+    border: 1px solid $white;
+    border-radius: 4px;
+    h3 {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .Select-control {
+    background-color: $blue-dark !important;
+    height: 45px !important;
+  }
+
+  .Select-value {
+    padding-top: 4px;
+  }
+
+  .Select-value-label {
+    color: $white !important;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Select-placeholder {
+    padding-top: 4px !important;
+    font-weight: bold;
+  }
+
+  .Select-menu-list {
+    background-color: $blue-dark !important;
+  }
+
+  .Select-menu-outer div {
+    background-color: $blue-dark !important;
+  }
+
+  .Select-option {
+    color: $white !important;
+    font-weight: bold;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .form-group {
+    .form-control {
+      background-color: transparent;
+      color: $white;
+    }
+  }
+}

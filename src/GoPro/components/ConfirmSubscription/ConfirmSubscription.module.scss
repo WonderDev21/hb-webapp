@@ -1,0 +1,32 @@
+@import '../../../assets/sass/utils.scss';
+
+.congrats_message {
+  padding: px-to-rem(4) px-to-rem(8);
+  background-color: $soft_purple;
+  border-radius: px-to-rem(5);
+
+  p {
+    color: white;
+  }
+
+  .first {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .second {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+
+.congrats_message::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: px-to-rem(20);
+  border-style: solid;
+  border-color: transparent $soft_purple transparent transparent;
+}

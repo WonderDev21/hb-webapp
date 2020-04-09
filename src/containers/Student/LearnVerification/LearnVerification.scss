@@ -1,0 +1,46 @@
+@import '../../../assets/sass/utils.scss';
+.learnverification {
+  h2 {
+    font-family: 'Barlow Semi Condensed';
+    color: $blue-dark;
+  }
+  .container {
+    margin-top: 2rem;
+    max-width: 550px;
+  }
+
+  .characters {
+    height: 50px;
+  }
+
+  .character {
+    line-height: 50px;
+    font-size: 36px;
+    background-color: rgba($blue-dark, 0.05);
+    border: none;
+    font-family: 'Barlow Semi Condensed';
+    font-size: 24px;
+    font-weight: 600;
+    color: $blue-dark;
+    text-align: center;
+    margin-left: 8px;
+    // box-shadow: inset 0 0 2px black;
+  }
+
+  .character--inactive {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+  }
+
+  .character--selected {
+    color: black;
+    outline: red 2px;
+    background-color: rgba($blue-dark, 0.2);
+  }
+
+  &__modal {
+    .modal-content {
+      padding: 2rem 4rem;
+    }
+  }
+}

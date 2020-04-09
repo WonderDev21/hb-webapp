@@ -1,0 +1,33 @@
+@import '../../../assets/sass/utils';
+
+.SignUpLink {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.SignUpLink:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.GoBack {
+  float: right;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.GoBack:hover {
+  color: #fff;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.form_container{
+  background-color: $soft_purple;
+
+  label {
+    color: $white;
+  }
+}

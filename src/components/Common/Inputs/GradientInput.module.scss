@@ -1,0 +1,38 @@
+@import '../../../assets/sass/utils';
+
+.inputRainbow {
+  color: #fff;
+  padding: px-to-rem(15);
+  background: transparent;
+  width: 100%;
+  height: px-to-rem(52);
+  @include rainbowBorder;
+  opacity: 0.9;
+  font-family: 'Gotham Rounded Book';
+  font-size: px-to-rem(18);
+  font-weight: 300;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  // -webkit-text-fill-color: #fff;
+  padding: px-to-rem(15);
+  background: transparent;
+  @include rainbowBorder;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.textareaModifier {
+  height: px-to-rem(162);
+}
+
+input[type='text'] {
+  border-radius: 10px;
+}

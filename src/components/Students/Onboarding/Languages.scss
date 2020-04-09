@@ -1,0 +1,30 @@
+@import '../../../assets/sass/utils';
+
+// input[type=radio] {
+//   visibility: hidden;
+//   position: absolute;
+// }
+
+// input[type='radio']:checked ~ .check-label {
+//   opacity: 1;
+// }
+
+// input[type='radio']:checked ~ .selected-name {
+//   display: block;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+//   border-radius: 5px;
+//   background-color: #2f313b;
+//   color: $white;
+//   font-size: 10px;
+//   font-weight: 500;
+//   max-width: 47px;
+//   margin: auto;
+// }
+
+// input[type='radio']:not(checked) ~ .check-label {
+//   opacity: 0.3;
+// }
+
+// input[type='radio']:not(checked) ~ .selected-name {
+//   display: none;
+// }

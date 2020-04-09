@@ -1,0 +1,42 @@
+@import '../../../assets/sass/utils.scss';
+.learndashboard {
+  &__card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 4rem 4rem 2rem 4rem;
+    margin-top: 1rem;
+    &__img {
+      width: 97px;
+      height: 96px;
+    }
+    &__title {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 18px;
+      font-weight: 800;
+      &-enable {
+        color: $blue-dark;
+      }
+
+      &-disable {
+        color: rgba($blue-dark, 0.6);
+      }
+    }
+
+    &__subtitle {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 14px;
+      color: rgba($blue-dark, 0.6);
+      &-enable {
+        font-weight: 800;
+      }
+
+      &-disable {
+        font-weight: 500;
+      }
+    }
+    button {
+      display: block;
+    }
+  }
+}

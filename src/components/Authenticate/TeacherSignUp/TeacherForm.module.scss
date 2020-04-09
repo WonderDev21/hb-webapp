@@ -1,0 +1,62 @@
+@import '../../../assets/sass/utils';
+
+
+.SignUpContainer {
+  margin-bottom: px-to-rem(40);
+  .linkGoBack {
+    display: flex;
+    img {
+      padding: px-to-rem(10);
+    }
+    p {
+      margin: 0;
+      font-size: px-to-rem(28);
+    }
+  }
+}
+
+.LogInLink {
+  color: $white;
+  opacity: 0.9;
+  font-size: px-to-rem(28);
+  margin-right: px-to-rem(40);
+}
+
+.LinkActive {
+  font-size: px-to-rem(28);
+  border-bottom: px-to-rem(1) solid $white;
+}
+
+.LogInLink:hover {
+  color: $white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Terms {
+  font-weight: 800;
+  color: $white;
+  background-color: transparent;
+  border: none;
+}
+
+.GoBack {
+  float: right;
+  font-size: px-to-rem(14);
+  color: $white;
+  opacity: 0.5;
+}
+
+.GoBack:hover {
+  color: $white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.form_container{
+  background-color: $soft_purple;
+
+  label, p {
+    color: $white;
+  }
+}

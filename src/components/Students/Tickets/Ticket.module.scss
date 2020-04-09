@@ -1,0 +1,17 @@
+@import '../../../assets/sass/utils';
+
+.ticket_form_container {
+  background-color: $soft_purple;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.ticket_form {
+  padding-top: 6px;
+}
+
+.text {
+  padding-top: 5px;
+  color: white;
+  font-size: 30px;
+}

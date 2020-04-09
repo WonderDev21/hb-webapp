@@ -1,0 +1,77 @@
+.Container{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgba(35, 8, 113, 0.05);
+  padding-bottom: 5px;
+  margin-top: 35px;
+  margin-left: 17px;
+  margin-right: 17px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Inactive {
+  padding-top: 55px;
+}
+
+.Uncheck {
+  display: none;
+}
+
+.Active {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px 5px 0 0;
+  border: 5px solid #7ed321;
+}
+
+.Check {
+  position: absolute;
+  top: 3rem;
+  left: 2.5rem;
+}
+
+.Arrow {
+  border-color: #7ed321 transparent;
+  border-style: solid;
+  border-width: 3rem 3rem 0rem 0rem;
+  position: relative;
+  display: table;
+}
+
+.Logo {
+  width: 108px;
+} 
+
+.Title {
+  color: #230871;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 26px;
+  margin-bottom: 0px
+}
+
+.Modules {
+  color: #53575a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Button {
+  width: 160px;
+  height: 53px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #230871;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Price {
+  margin-top: 37px;
+  margin-bottom: 5px;
+  color: #7ed321;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

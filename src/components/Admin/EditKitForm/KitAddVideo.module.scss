@@ -1,0 +1,37 @@
+.Container {
+  border-radius: 5px;
+  border: 0 solid white;
+  background-color: white;
+  height: 100%;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.AddVideoContainer {
+  height: 100%;
+}
+
+.Icon {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.Text {
+  font-size: 20px;
+  color: #2f313b;
+}
+
+.UploadButton {
+  margin-bottom: 23px;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    padding: 0px 18px;
+  }
+
+  .AddVideoContainer {
+    height: 100%;
+    margin: 72px 0px 48px 0px;
+  }
+}

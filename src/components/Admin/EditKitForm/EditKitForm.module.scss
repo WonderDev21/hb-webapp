@@ -1,0 +1,13 @@
+.KitPicture {
+  width: 100%;
+}
+
+.Equal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Equal > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}

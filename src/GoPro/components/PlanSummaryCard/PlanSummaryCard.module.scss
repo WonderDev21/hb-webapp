@@ -1,0 +1,46 @@
+@import '../../../assets/sass/utils.scss';
+
+.plan_summary_card {
+  border-radius: px-to-rem(15);
+  border: px-to-rem(1) solid #979797;
+  background-color: #230871;
+  padding: px-to-rem(16) px-to-rem(40);
+  margin: px-to-rem(16);
+
+  .logo {
+    width: 120px;
+    height: 85px;
+  }
+
+  .title {
+    color: $white;
+    font-family: "Barlow Semi Condensed";
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .subtitle {
+    color: $white;
+    font-family: "Barlow Semi Condensed";
+    font-size: px-to-rem(20);
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .normal {
+    color: $white;
+  }
+
+  .normal span {
+    padding-left: px-to-rem(8);
+  }
+
+  .gray {
+    color: $secondary;
+  }
+
+  .gray span {
+    padding-left: px-to-rem(24);
+  }
+}

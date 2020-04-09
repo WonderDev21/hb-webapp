@@ -1,0 +1,7 @@
+@import '../../../assets/sass/utils';
+
+.Border {
+  border: 1px solid $blue-dark;
+  margin-top: px-to-rem(15);
+  padding: px-to-rem(10) px-to-rem(0) px-to-rem(10) px-to-rem(55);
+}

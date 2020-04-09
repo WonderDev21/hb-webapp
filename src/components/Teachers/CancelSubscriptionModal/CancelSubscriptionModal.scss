@@ -1,0 +1,14 @@
+@import '../../../assets/sass/utils';
+
+.cancelmodal {
+  &__btn {
+    color: $red;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

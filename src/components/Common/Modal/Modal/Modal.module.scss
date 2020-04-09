@@ -1,0 +1,18 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  width: 80%;
+  left: 10%;
+  top: 10%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  overflow-y: auto;
+  height: 82%;
+}
+
+@media (min-width:992px) {
+  .Modal {
+    max-width: 640px;
+    left: calc(50% - 320px);
+  }
+}

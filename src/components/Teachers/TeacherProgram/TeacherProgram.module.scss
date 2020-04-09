@@ -1,0 +1,32 @@
+.Title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.File {
+  max-width: 179px;
+}
+
+.Button {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  width: 104px;
+  height: 43px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #230871;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.teacherProgramContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,76 @@
+.Container {
+  max-width: 900px;
+}
+
+.TitleContainer {
+  margin-top: 104px;
+}
+
+.LearningPathTitle {
+  display: inline;
+  color: #230871;
+  font-size: 28px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.LearningPathSubTitle {
+  display: inline;
+  margin-left: 14px;
+  margin-right: 14px;
+  color: #230871;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.LearningPathIcon {
+  margin-bottom: 10px;
+}
+
+.JoinSchool {
+  margin-right: 15px;
+  float: right;
+  min-width: 92px;
+  height: 35px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  background-color: #230871;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Last {
+  margin-bottom: 150px;
+}
+
+.MoreTracks {
+  width: 180px;
+  height: 53px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #ff4438;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.LearnMore {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #53575a;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.LastContainer{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgba(35, 8, 113, 0.05);
+  padding-top: 70px;
+  padding-bottom: 35px;
+  margin-top: 35px;
+  margin-left: 17px;
+  margin-right: 17px;
+  text-align: center
+}

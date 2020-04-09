@@ -1,0 +1,31 @@
+@import '../../../assets/sass/utils.scss';
+.studentTickets {
+  background-color: $blue-dark;
+  color: $white;
+  min-height: calc(100vh - 8.5rem);
+  &__block {
+    display: table;
+    border: 1px solid $white;
+    border-radius: 4px;
+    h3 {
+      font-family: 'Barlow Semi Condensed';
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  &__createButton {
+    background-color: $white;
+    border-radius: 4px;
+    h6 {
+      color: $blue-dark;
+    }
+  }
+  &__ticketItem {
+    border: 1px solid $white;
+    border-radius: 4px;
+  }
+  .ReactCollapse--collapse {
+    transition: height 500ms;
+  }
+}

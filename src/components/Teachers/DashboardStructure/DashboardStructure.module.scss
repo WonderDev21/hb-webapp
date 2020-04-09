@@ -1,0 +1,57 @@
+.ProgramContainer {
+  padding: 0px 50px;
+}
+
+.Workspace {
+  font-size: 40px;
+}
+
+.Options {
+  padding-top: 230px;
+
+  .Active {
+    padding-top: 10px;
+    float: left;
+    max-width: 40px;
+  }
+
+  .ActiveOption {
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+
+.Resources {
+  padding-top: 130px;
+  padding-bottom: 150px;
+
+  .Bg {
+    height: 750px;
+    overflow-y: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+
+    .Title {
+      padding-top: 37px;
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 600;
+    }
+  }
+}
+
+.Container {
+  margin: 0px 67px 0px 35px;
+}
+
+.btn_custom {
+  border-color: #53575a;
+  border-radius: 5px;
+  background-color: #53575a;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Barlow Semi Condensed';
+  font-size: 18px;
+  font-weight: 600;
+}

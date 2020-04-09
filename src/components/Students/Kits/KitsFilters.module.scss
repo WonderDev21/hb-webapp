@@ -1,0 +1,55 @@
+.Dropdown {
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.Dropdown:hover {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.Active {
+  background: transparent url(../../../assets/img/Checked.png) no-repeat 95%;
+
+  button {
+    font-weight: 800;
+  }
+}
+
+.ActiveDificulty {
+  font-weight: 800;
+}
+
+.Line {
+  border: 1px solid #97989d;
+  opacity: 0.2;
+}
+
+.Last {
+  float: right;
+}
+
+.Left {
+  float: left;
+}
+
+.Circle {
+  color: #7ed321;
+}
+
+.Beginner {
+  display: inline;
+  margin-left: 4rem;
+}
+
+.Master {
+  display: inline;
+  margin-left: 18px;
+}

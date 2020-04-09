@@ -1,0 +1,40 @@
+.Container{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: rgba(35, 8, 113, 0.05);
+  padding-top: 70px;
+  padding-bottom: 35px;
+  margin-top: 35px;
+  margin-left: 17px;
+  margin-right: 17px;
+  text-align: center
+}
+
+.Logo {
+  width: 108px;
+} 
+
+.Title {
+  color: #230871;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 26px;
+  margin-bottom: 0px
+}
+
+.Modules {
+  color: #53575a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Button {
+  width: 160px;
+  height: 53px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #230871;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}

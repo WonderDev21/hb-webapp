@@ -1,0 +1,24 @@
+@import '../../../assets/sass/utils.scss';
+
+.checkout__container {
+  background-color: $blue-dark;
+
+  .title, .subtitle {
+    color: $white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Barlow Semi Condensed";
+    font-size: px-to-rem(32);
+  }
+
+  .vertical_line {
+    border-left: 1px solid rgba($color: $white, $alpha: 0.5);
+    height: 70px;
+  }
+
+  .errorMessage {
+    color: $red;
+    text-align: center;
+    font-size: px-to-rem(20);
+  }
+}

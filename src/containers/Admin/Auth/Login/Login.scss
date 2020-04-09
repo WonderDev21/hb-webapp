@@ -1,0 +1,59 @@
+
+@import '../../../../assets/sass/utils.scss';
+
+.login {
+    padding-top: 10rem;
+    h4 {
+        font-family: "Barlow Semi Condensed";
+        font-size: 28px;
+        font-weight: 500;
+        color: $soft_purple;
+    }
+    h5 {
+        font-family: "Barlow Semi Condensed";
+        font-size: 18px;
+        font-weight: 400;
+        color: $soft_purple;
+    }
+    
+}
+.loginForm {
+    .card-header {
+        background-color: $soft_purple;
+        height: 85px;
+        h4 {
+            font-family: "Barlow Semi Condensed";
+            font-size: 28px;
+            font-weight: 600;
+            color: $white;
+        }
+    }
+    &__underbar{
+        height: 3px;
+        background-color: $white;
+        width: 65px;
+        border-radius: 2px;
+    }
+
+    h6 {
+        font-family: "Barlow Semi Condensed";
+        font-size: 16px;
+        font-weight: 400;
+        color: $soft-purple;
+    }
+    .card-body {
+        background-color: $blue-dark-transparent;
+    }
+    label {
+        font-family: "Barlow Semi Condensed";
+        font-size: 18px;
+        font-weight: 600;
+        color: $soft-purple;
+    }
+    input {
+        font-family: "Barlow Semi Condensed";
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+}

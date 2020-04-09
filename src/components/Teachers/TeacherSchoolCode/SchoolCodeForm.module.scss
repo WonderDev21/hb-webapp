@@ -1,0 +1,67 @@
+@import '../../../assets/sass/utils';
+
+.Container {
+  background-color: $white;
+}
+
+.code_form_container {
+  background-color: $white;
+
+  label,
+  p {
+    color: $soft_purple;
+    font-size: 26px;
+    font-weight: 600;
+  }
+}
+
+.btn_custom {
+  border: 2px;
+  color: white;
+  margin-left: 5px;
+  background-color: $red;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.btn_custom_resend {
+  border: 2px;
+  color: white;
+  margin-left: 5px;
+  background-color: $soft_purple;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.heading_bg_image {
+  background-image: url('../../../assets/img/Combined_Shape.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.bg_purple {
+  background-color: $soft_purple;
+  color: $white;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 39px;
+  text-align: center;
+  position: relative;
+}
+
+.span_style {
+  color: #230871;
+  font-family: 'Barlow Semi Condensed';
+  font-size: 30px;
+  font-weight: 600;
+}

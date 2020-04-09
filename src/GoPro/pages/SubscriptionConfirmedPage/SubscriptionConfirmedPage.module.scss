@@ -1,0 +1,21 @@
+@import '../../../assets/sass/utils.scss';
+
+.subscription_confirmed__container {
+  background-color: $blue-dark;
+  text-align: left;
+
+  .btnGray, .btnOrange {
+    @include button;
+  }
+
+  .btnGray {
+    @include shadow;
+    background-color: $white;
+    color: $blue-dark;
+  }
+
+  .btnOrange {
+    @include redButton;
+    @include shadow;
+  }
+}

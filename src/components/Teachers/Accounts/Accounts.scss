@@ -1,0 +1,35 @@
+@import '../../../assets/sass/utils';
+
+.accounts {
+  position: relative;
+  text-align: left;
+
+  &__table {
+    position: relative;
+  }
+
+  &__newuser {
+    position: absolute;
+    top: -60px;
+    right: 0px;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid $gunmetal;
+  }
+  span {
+    color: $blue-dark;
+  }
+
+  &__email {
+    color: $blue-dark;
+    font-weight: 500;
+  }
+}

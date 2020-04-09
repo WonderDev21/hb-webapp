@@ -1,0 +1,17 @@
+@import '../../../assets/sass/utils';
+.iconbutton {
+  padding: 6px;
+  border-radius: 100%;
+  display: inline-flex;
+  cursor: pointer;
+  &__grey {
+    background-color: $secondary;
+  }
+
+  &__red {
+    background-color: #e15d5d;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}
